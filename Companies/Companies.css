@@ -1,0 +1,10 @@
+.c-container{
+    justify-content: space-around;
+    gap: 1rem;
+}
+.partenaire{
+    width: 9rem;
+}
+.c-wrapper{
+    background-color: whitesmoke;
+}

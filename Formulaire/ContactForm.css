@@ -1,0 +1,48 @@
+/* ContactForm.css */
+
+/* Style pour le formulaire */
+.contenu-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style pour les labels */
+.labelform {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style pour les champs de texte */
+.inputform {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style pour le bouton d'envoi */
+.inputform[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.inputform[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour le message d'erreur */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+#contenu{
+  padding: 20px;
+}
